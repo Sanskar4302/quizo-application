@@ -37,17 +37,10 @@ Create a `.env` file in the backend directory and add the following:
 ```env
 DB_HOST=localhost
 DB_USER=root
-DB_PASSWORD=yourpassword
-DB_NAME=quizo
-JWT_SECRET=your_secret_key
+DB_PASSWORD=Amapsgupta@5
+DB_NAME=quiz_db
 PORT=5000
 ```
-### 4. Database Setup
-Ensure you have MySQL installed and running. Create the database manually or run:
-```sql
-CREATE DATABASE quizo;
-```
-Run migrations (if applicable) or execute schema creation SQL files.
 
 ### 5. Start the Application
 #### Start Backend
